@@ -9,7 +9,6 @@ import javax.swing.JOptionPane;
 
 public class conexionBD 
 {
-    /*
     String URL = "jdbc:mysql://localhost:3306/sistema_acceso"; //Solo cambiar el final (sistema_acceso) si es que el nombre de tu base de datos es otro.
     String USUARIO = "root";
     String CONTRASEÑA = "";
@@ -20,6 +19,12 @@ public class conexionBD
      {
          Class.forName("com.mysql.cj.jdbc.Driver");
          conectar=DriverManager.getConnection(URL, USUARIO, CONTRASEÑA);
+        /*
+         if (conectar !=null)
+         {
+             JOptionPane.showMessageDialog(null, "CONEXION");
+         }
+         */
      }
      catch(Exception e)
      {
@@ -27,5 +32,4 @@ public class conexionBD
      }
      return conectar;
     }
-    */
 }
