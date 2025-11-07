@@ -1,5 +1,5 @@
 package com.pry.jodibraze.model;
-public class usuario {
-    
+public class usuario 
+{    
 }
  

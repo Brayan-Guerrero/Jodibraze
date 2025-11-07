@@ -34,5 +34,4 @@ public class conexionBD
      }
      return conectar;
     }*/
-
 }
