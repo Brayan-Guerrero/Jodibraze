@@ -1,4 +1,5 @@
 package com.pry.jodibraze.controller;
-public class cIngreso {
+public class cIngreso 
+{
     
 }
