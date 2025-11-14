@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public class conexionBD 
 {
     
-    String URL = "jdbc:mysql://localhost:3306/sistema_acceso"; //Solo cambiar el final (sistema_acceso) si es que el nombre de tu base de datos es otro.
+    String URL = "jdbc:mysql://localhost:3306/sistema"; //Solo cambiar el final (sistema_acceso) si es que el nombre de tu base de datos es otro.
     String USUARIO = "root";
     String CONTRASEÑA = "";
     Connection conectar=null;
@@ -23,6 +23,7 @@ public class conexionBD
          if (conectar !=null)
          {
              JOptionPane.showMessageDialog(null, "CONEXION");
+             return conectar;
          }
     
      }
